@@ -16,6 +16,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus-operator/prometheus-operator v0.58.0
 	github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.58.0
+	github.com/redhat-developer/observability-operator/api/v4 v4.0.0
 	github.com/prometheus/client_golang v1.13.0
 	github.com/sirupsen/logrus v1.8.1
 	k8s.io/api v0.24.3
@@ -91,3 +92,5 @@ require (
 )
 
 replace k8s.io/client-go => k8s.io/client-go v0.24.3
+
+replace github.com/redhat-developer/observability-operator/v4/api => ./api
