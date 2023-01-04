@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	. "github.com/onsi/gomega"
-	v1 "github.com/redhat-developer/observability-operator/v4/api/v1"
+	v1 "github.com/laurafitzgerald/observability-operator/api/v4/v1"
 )
 
 var (

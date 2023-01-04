@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	v1 "github.com/redhat-developer/observability-operator/v4/api/v1"
+	v1 "github.com/laurafitzgerald/observability-operator/api/v4/v1"
 	"github.com/redhat-developer/observability-operator/v4/controllers/model"
 	"github.com/redhat-developer/observability-operator/v4/controllers/reconcilers/token"
 	v13 "k8s.io/api/apps/v1"

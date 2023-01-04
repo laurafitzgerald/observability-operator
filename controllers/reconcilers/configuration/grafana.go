@@ -5,7 +5,7 @@ import (
 
 	"github.com/blang/semver"
 	"github.com/grafana-operator/grafana-operator/v4/api/integreatly/v1alpha1"
-	v1 "github.com/redhat-developer/observability-operator/v4/api/v1"
+	v1 "github.com/laurafitzgerald/observability-operator/api/v4/v1"
 	"github.com/redhat-developer/observability-operator/v4/controllers/model"
 	core "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

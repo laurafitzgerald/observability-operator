@@ -3,7 +3,7 @@ package token
 import (
 	"context"
 	"github.com/go-logr/logr"
-	v1 "github.com/redhat-developer/observability-operator/v4/api/v1"
+	v1 "github.com/laurafitzgerald/observability-operator/api/v4/v1"
 	"github.com/redhat-developer/observability-operator/v4/controllers/model"
 	"github.com/redhat-developer/observability-operator/v4/controllers/reconcilers"
 	"k8s.io/apimachinery/pkg/api/errors"

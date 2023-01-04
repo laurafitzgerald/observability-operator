@@ -37,7 +37,7 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	apiv1 "github.com/redhat-developer/observability-operator/v4/api/v1"
+	apiv1 "github.com/laurafitzgerald/observability-operator/api/v4/v1"
 	"github.com/redhat-developer/observability-operator/v4/controllers"
 	"github.com/redhat-developer/observability-operator/v4/runners"
 	// +kubebuilder:scaffold:imports

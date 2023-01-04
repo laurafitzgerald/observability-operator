@@ -3,7 +3,7 @@ package promtail_installation
 import (
 	"context"
 	"github.com/go-logr/logr"
-	v1 "github.com/redhat-developer/observability-operator/v4/api/v1"
+	v1 "github.com/laurafitzgerald/observability-operator/api/v4/v1"
 	"github.com/redhat-developer/observability-operator/v4/controllers/model"
 	"github.com/redhat-developer/observability-operator/v4/controllers/reconcilers"
 	rbacv1 "k8s.io/api/rbac/v1"

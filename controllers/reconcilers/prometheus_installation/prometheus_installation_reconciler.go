@@ -6,7 +6,7 @@ import (
 	"github.com/go-logr/logr"
 	coreosv1 "github.com/operator-framework/api/pkg/operators/v1"
 	"github.com/operator-framework/api/pkg/operators/v1alpha1"
-	v1 "github.com/redhat-developer/observability-operator/v4/api/v1"
+	v1 "github.com/laurafitzgerald/observability-operator/api/v4/v1"
 	"github.com/redhat-developer/observability-operator/v4/controllers/model"
 	"github.com/redhat-developer/observability-operator/v4/controllers/reconcilers"
 	"github.com/redhat-developer/observability-operator/v4/controllers/utils"

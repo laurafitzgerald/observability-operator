@@ -6,9 +6,9 @@ import (
 	"regexp"
 
 	"github.com/ghodss/yaml"
+	v1 "github.com/laurafitzgerald/observability-operator/api/v4/v1"
 	errors2 "github.com/pkg/errors"
 	prometheusv1 "github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring/v1"
-	v1 "github.com/redhat-developer/observability-operator/v4/api/v1"
 	"github.com/redhat-developer/observability-operator/v4/controllers/model"
 	"github.com/redhat-developer/observability-operator/v4/controllers/reconcilers/token"
 	"github.com/redhat-developer/observability-operator/v4/controllers/utils"

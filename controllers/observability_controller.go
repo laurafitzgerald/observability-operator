@@ -38,7 +38,7 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	apiv1 "github.com/redhat-developer/observability-operator/v4/api/v1"
+	apiv1 "github.com/laurafitzgerald/observability-operator/api/v4/v1"
 )
 
 const (

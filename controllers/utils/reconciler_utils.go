@@ -6,10 +6,10 @@ import (
 	"encoding/base64"
 	"fmt"
 
+	v1 "github.com/laurafitzgerald/observability-operator/api/v4/v1"
 	v13 "github.com/openshift/api/config/v1"
 	routev1 "github.com/openshift/api/route/v1"
 	v12 "github.com/operator-framework/api/pkg/operators/v1"
-	v1 "github.com/redhat-developer/observability-operator/v4/api/v1"
 	"github.com/redhat-developer/observability-operator/v4/controllers/model"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"

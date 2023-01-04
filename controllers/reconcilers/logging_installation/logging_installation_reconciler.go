@@ -8,7 +8,7 @@ import (
 	"github.com/go-logr/logr"
 	v14 "github.com/openshift/cluster-logging-operator/apis/logging/v1"
 	"github.com/operator-framework/api/pkg/operators/v1alpha1"
-	v1 "github.com/redhat-developer/observability-operator/v4/api/v1"
+	v1 "github.com/laurafitzgerald/observability-operator/api/v4/v1"
 	"github.com/redhat-developer/observability-operator/v4/controllers/model"
 	"github.com/redhat-developer/observability-operator/v4/controllers/reconcilers"
 	v12 "k8s.io/api/apps/v1"
